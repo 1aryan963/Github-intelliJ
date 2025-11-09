@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Basic;
 
 public class Datatypes {
     public static void main(String[] args) {

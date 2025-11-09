@@ -1,4 +1,5 @@
-import java.util.Enumeration;
+package Arrays;
+
 import java.util.Scanner;
 
 public class ArraySearching {

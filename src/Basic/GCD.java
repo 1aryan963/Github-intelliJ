@@ -1,15 +1,17 @@
+package Basic;
+
 import java.util.Scanner;
 
 public class GCD {
     public static void main(String[] args) {
-        System.out.println("Welcome to GCD calculator");
+        System.out.println("Welcome to Basic.GCD calculator");
         Scanner a=new Scanner(System.in);
         System.out.print("Enter a num: ");
         int first=a.nextInt();
         System.out.print("Enter a num: ");
         int second = a.nextInt();
         int gcd=gcd(first,second);
-        System.out.println("GCD of "+first+" and "+second+" is "+gcd);
+        System.out.println("Basic.GCD of "+first+" and "+second+" is "+gcd);
     }
     public static int least(int n1,int n2){
         if(n1>n2){
@@ -32,4 +34,3 @@ public class GCD {
     return gcd;
     }
 }
-

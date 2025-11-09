@@ -1,3 +1,5 @@
+package Basic;
+
 public class Assignment_Operator {
     public static void main(String[] args){
         int a=2;

@@ -1,3 +1,5 @@
+package Basic;
+
 public class FirstProgram {
     public static void main(String[] args) {
         int _p =2;
